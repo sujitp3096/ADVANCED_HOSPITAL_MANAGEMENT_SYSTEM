@@ -72,8 +72,11 @@ It works like a real hospital OPD system by automatically analyzing symptoms, de
 Enter your choice: 1
 
 Enter Patient ID: 101
+
 Enter Patient Name: Rahul Sharma
+
 Enter Age: 35
+
 Enter Disease: Fever
 
 Patient added successfully!
@@ -83,7 +86,10 @@ Patient added successfully!
 Enter your choice: 2
 
 Patient List:
-ID: 101 | Name: Rahul Sharma | Age: 35 | Disease: Fever
+ID: 101 | 
+Name: Rahul Sharma | 
+Age: 35 | 
+Disease: Fever
 
 -----------------------------------------------
 
