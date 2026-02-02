@@ -27,8 +27,8 @@ public class Doctor {
         if (symptom.contains("fever") || symptom.contains("vomiting") ||
             symptom.contains("cold"))
             return "MEDIUM";
-
         return "LOW";
     }
 }
+
 
