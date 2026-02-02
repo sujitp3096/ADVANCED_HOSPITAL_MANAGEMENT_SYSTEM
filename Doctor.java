@@ -17,7 +17,6 @@ public class Doctor {
 
         return "General OPD";
     }
-
     public static String getPriority(String symptom) {
         symptom = symptom.toLowerCase();
 
@@ -32,3 +31,4 @@ public class Doctor {
         return "LOW";
     }
 }
+
