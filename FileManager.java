@@ -16,7 +16,6 @@ public class FileManager {
 
     public static ArrayList<Patient> loadPatients() {
         ArrayList<Patient> list = new ArrayList<>();
-
         File f = new File(FILE);
         if (!f.exists()) return list;
 
@@ -37,3 +36,4 @@ public class FileManager {
         return list;
     }
 }
+
