@@ -13,6 +13,9 @@ public class FileManager {
             e.printStackTrace();
         }
     }
+
+
+    
     public static ArrayList<Patient> loadPatients() {
         ArrayList<Patient> list = new ArrayList<>();
         File f = new File(FILE);
@@ -34,6 +37,7 @@ public class FileManager {
         return list;
     }
 }
+
 
 
 
