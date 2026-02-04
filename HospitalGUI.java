@@ -19,6 +19,7 @@ public class HospitalGUI extends JFrame {
         JLabel title = new JLabel("AI Hospital Management System", SwingConstants.CENTER);
         add(title);
 
+        
         JTextField nameField = new JTextField();
         add(new JLabel("Name:"));
         add(nameField);
@@ -69,4 +70,5 @@ public class HospitalGUI extends JFrame {
         new HospitalGUI();
     }
 }
+
 
