@@ -5,13 +5,14 @@ import java.util.ArrayList;
 public class HospitalGUI extends JFrame {
 
     ArrayList<Patient> patients;
-    int nextToken = 1;
+    int nextToken = 1
 
     public HospitalGUI() {
         setTitle("Hospital AI Management System");
         setSize(500, 500);
         setLayout(new GridLayout(7, 1));
 
+        
         patients = FileManager.loadPatients();
         if (!patients.isEmpty())
             nextToken = patients.get(patients.size() - 1).token + 1;
@@ -70,5 +71,6 @@ public class HospitalGUI extends JFrame {
         new HospitalGUI();
     }
 }
+
 
 
