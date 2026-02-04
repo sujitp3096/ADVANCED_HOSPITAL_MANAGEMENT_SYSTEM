@@ -23,6 +23,7 @@ public class HospitalGUI extends JFrame {
         add(new JLabel("Name:"));
         add(nameField);
 
+        
         JTextField ageField = new JTextField();
         add(new JLabel("Age:"));
         add(ageField);
@@ -68,3 +69,4 @@ public class HospitalGUI extends JFrame {
         new HospitalGUI();
     }
 }
+
