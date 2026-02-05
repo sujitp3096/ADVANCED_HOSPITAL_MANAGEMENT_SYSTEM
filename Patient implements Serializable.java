@@ -19,7 +19,8 @@ public class Patient implements Serializable {
     }
 
     public String toFileFormat() {
-        return token + "," + name + "," + age + "," + symptom + "," + priority + "," + doctor;
+        return token + "," + name + "," + age + "," + symptom + ," + priority + "," + doctor;
     }
 }
+
 
