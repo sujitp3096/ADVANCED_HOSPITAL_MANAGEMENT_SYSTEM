@@ -12,7 +12,7 @@ public class Patient implements Serializable {
                    String priority, String doctor) {
         this.token = token;
         this.name = name;
-        this.age = age;
+        this.age = age;;
         this.symptom = symptom;
         this.priority = priority;
         this.doctor = doctor;
@@ -22,3 +22,4 @@ public class Patient implements Serializable {
         return token + "," + name + "," + age + "," + symptom + "," + priority + "," + doctor;
     }
 }
+
