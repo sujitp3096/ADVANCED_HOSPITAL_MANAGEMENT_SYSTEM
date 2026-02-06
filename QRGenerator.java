@@ -16,7 +16,7 @@ public class QRGenerator {
 
         g.setColor(Color.BLACK);
         g.drawString("TOKEN QR", 90, 20);
-        g.drawString(text, 50, 120);
+        g.drawString(text, 50, 120)
 
         g.dispose();
 
@@ -27,3 +27,4 @@ public class QRGenerator {
         }
     }
 }
+
