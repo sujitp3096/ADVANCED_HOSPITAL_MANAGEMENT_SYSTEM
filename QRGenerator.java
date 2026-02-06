@@ -22,9 +22,11 @@ public class QRGenerator {
 
         try {
             ImageIO.write(img, "png", new File(fileName));
-        } catch (Exception e) {
+        } catch (Exception e)
+            {
             e.printStackTrace();
-        }
+            }
     }
 }
+
 
