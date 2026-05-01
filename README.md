@@ -5,7 +5,7 @@ This is an advanced Hospital Management System built in **Java**, featuring an i
 
 It works like a real hospital OPD system by automatically analyzing symptoms, deciding priority levels, assigning doctors, generating QR tokens, and notifying patients.
 
----
+--
 
 ## 🚀 Features
 
