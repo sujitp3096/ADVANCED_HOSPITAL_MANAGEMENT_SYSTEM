@@ -11,6 +11,7 @@ public class QRGenerator {
         BufferedImage img = new BufferedImage(size, size, BufferedImage.TYPE_INT_RGB);
         Graphics2D g = img.createGraphics();
 
+        
         g.setColor(Color.WHITE);
         g.fillRect(0, 0, size, size);
 
