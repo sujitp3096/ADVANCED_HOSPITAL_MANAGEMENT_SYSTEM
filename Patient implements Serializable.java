@@ -1,5 +1,4 @@
 import java.io.Serializable;
-
 public class Patient implements Serializable {
     public int token;
     public String name;
