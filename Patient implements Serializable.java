@@ -8,6 +8,7 @@ public class Patient implements Serializable {
     public String priority;
     public String doctor;
 
+    
     public Patient(int token, String name, int age, String symptom,
                    String priority, String doctor) {
         this.token = token;
